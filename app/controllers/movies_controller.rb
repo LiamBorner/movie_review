@@ -18,7 +18,7 @@ class MoviesController < ApplicationController
 
   def create
     @movie = current_user.movies.build(movie_params)
-    comment.image.attach(params[:movie][:image])
+    @movie.image.attach(params[:movie][:image])
 
 
     respond_to do |format|
