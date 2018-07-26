@@ -64,3 +64,5 @@ gem 'devise', '~> 4.2'
 gem 'image_processing', '~> 1.2'
 gem "mini_magick"
 gem 'mysql2', '~> 0.5.2'
+gem 'bootstrap-sass', '~> 3.3.7'
+gem 'jquery-rails'
